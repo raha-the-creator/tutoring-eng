@@ -5,7 +5,7 @@ const SectionTitle = (props) => {
   return (
     <Container
       className={`flex w-full flex-col mt-4 ${
-        props.align === "left" ? "" : "items-center justify-center text-center"
+        props.align === "left" ? "" : "items-center justify-center text-start"
       }`}>
       {props.pretitle && (
         <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">
@@ -14,7 +14,7 @@ const SectionTitle = (props) => {
       )}
 
       {props.title && (
-        <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+        <h2 className="max-w-2xl mt-3 text-3xl text-start font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
           {props.title}
         </h2>
       )}

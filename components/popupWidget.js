@@ -116,7 +116,7 @@ const PopupWidget = () => {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value="20818d5e-3ae3-4e28-b099-ba9127c0280f"
                         {...register("apikey")}
                       />
                       <input

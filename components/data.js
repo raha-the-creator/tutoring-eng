@@ -5,6 +5,8 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  RocketLaunchIcon,
+  PuzzlePieceIcon
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
@@ -23,12 +25,12 @@ const benefitOne = {
     {
       title: "Индивидуальный наставник",
       desc: "Помогу избежать ошибок и сделаю так, что скорость обучения будет в разы выше, чем при занятиях в группе.",
-      icon: <ChartBarSquareIcon />,
+      icon: <RocketLaunchIcon />,
     },
     {
       title: "Интерес к программированию",
       desc: "Моя программа построена так, что ребенок увидит, что программировать гораздо интереснее, чем играть.",
-      icon: <CursorArrowRaysIcon />,
+      icon: <PuzzlePieceIcon />,
     },
     {
       title: "Профориентация",
