@@ -16,25 +16,24 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>"Bilim" tutoring for kids</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Tutoring for kids"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle=""
+        title="👨‍🏫 Немного обо мне:">
+        Меня зовут Раха, родом я из Казахстана 🇰🇿. Выпускник British Columbia Institute of Technology, сейчас работаю Quality Assurance Engineer в американской компании, специализирующейся на тестировании программного обеспечения для развлекательной индустрии. В свободное время играю на гитаре, хожу в спорт зал, делаю небольшие проекты.
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
+
       <SectionTitle
         pretitle="Watch a video"
         title="Learn how to fullfil your needs">
@@ -42,21 +41,29 @@ const Home = () => {
         Analysts says a landing page with video has 3% more conversion rate. So,
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
+
       <Video />
-      <SectionTitle
+
+      {/* <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
-      </SectionTitle>
-      <Testimonials />
+      </SectionTitle> */}
+
+      {/* <Testimonials /> */}
+
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
+
       <Faq />
+
       <Cta />
+
       <Footer />
+
       <PopupWidget />
     </>
   );

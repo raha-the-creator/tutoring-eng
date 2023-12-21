@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full px-3">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
@@ -24,14 +24,14 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/bilimlogo.svg"
                         alt="N"
                         width="32"
                         height="32"
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Онлайн-школа "Bilim"</span>
                   </span>
                 </Link>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Get Started
+                        Записаться!
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -90,7 +90,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+              Записаться!
           </Link>
 
           <ThemeChanger />

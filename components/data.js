@@ -11,23 +11,28 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "В чем плюсы моих занятий?",
+  desc: "",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Удобство",
+      desc: "Обучение проходит дома, в комфортной для ученика обстановке. Нужен только компьютер, доступ в интернет и желание учиться.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Индивидуальный наставник",
+      desc: "Помогу избежать ошибок и сделаю так, что скорость обучения будет в разы выше, чем при занятиях в группе.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Интерес к программированию",
+      desc: "Моя программа построена так, что ребенок увидит, что программировать гораздо интереснее, чем играть.",
+      icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: "Профориентация",
+      desc: "Ребята могут в раннем возрасте понять, интересна ли им профессия программиста и мир IT.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
