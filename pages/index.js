@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex items-start w-full lg:w-1/2">
+        <div className="flex items-start w-full lg:w-1/2" id="aboutme">
           <SectionTitle pretitle="" title="👨‍🏫 Немного обо мне:">
             Меня зовут Раха, родом я из Казахстана 🇰🇿. Выпускник British
             Columbia Institute of Technology, сейчас работаю Quality Assurance
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
       </Container>
 
-      <Benefits data={benefitOne} />
+      <Benefits data={benefitOne} id="benefits"/>
 
 
       <SectionTitle
@@ -65,7 +65,7 @@ const Home = () => {
       
       </SectionTitle>
 
-      <Video />
+      <Video id="video" />
 
       {/* <Testimonials /> */}
 
@@ -73,7 +73,7 @@ const Home = () => {
       
       </SectionTitle>
 
-      <Faq />
+      <Faq id="faq" />
 
       <Cta />
 
