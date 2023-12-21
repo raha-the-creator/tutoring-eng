@@ -55,25 +55,30 @@ const Home = () => {
         </div>
       </Container>
 
-      <Benefits data={benefitOne} id="benefits"/>
-
+      <div>
+        <Benefits data={benefitOne} id="benefits" />
+      </div>
 
       <SectionTitle
         pretitle="Ознакомление"
         title="Видео-знакомство со мной."
-      >
-      
-      </SectionTitle>
+      ></SectionTitle>
 
-      <Video id="video" />
+      <div id="video">
+        <Video />
+      </div>
 
       {/* <Testimonials /> */}
 
-      <SectionTitle pretitle="FAQ" title="Вопросы/ответы" className="max-w-2xl">
-      
-      </SectionTitle>
+      <SectionTitle
+        pretitle="FAQ"
+        title="Вопросы/ответы"
+        className="max-w-2xl"
+      ></SectionTitle>
 
-      <Faq id="faq" />
+      <div id="faq" >
+        <Faq />
+      </div>
 
       <Cta />
 
