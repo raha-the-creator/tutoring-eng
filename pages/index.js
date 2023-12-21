@@ -59,10 +59,10 @@ const Home = () => {
 
 
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        pretitle="Ознакомление"
+        title="Видео-знакомство со мной."
       >
-        Видео-знакомство со мной.
+      
       </SectionTitle>
 
       <Video />
