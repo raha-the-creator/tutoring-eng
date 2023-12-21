@@ -55,8 +55,8 @@ const Home = () => {
         </div>
       </Container>
 
-      <div>
-        <Benefits data={benefitOne} id="benefits" />
+      <div id="benefits">
+        <Benefits data={benefitOne}  />
       </div>
 
       <SectionTitle
