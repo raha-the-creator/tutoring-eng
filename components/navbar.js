@@ -62,21 +62,39 @@ const Navbar = () => {
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
-                    {/* {navigation.map((item, index) => (
-                      <Link
-                        key={index}
-                        href="/"
-                        className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
-                      >
-                        {item}
-                      </Link>
-                    ))} */}
+                    <Link
+                      href="https://bilim-tutoring.vercel.app/#aboutme"
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                    >
+                      Обо мне
+                    </Link>
+
+                    <Link
+                      href="https://bilim-tutoring.vercel.app/#benefits"
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                    >
+                      Плюсы занятий
+                    </Link>
+
+                    <Link
+                      href="https://bilim-tutoring.vercel.app/#video"
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                    >
+                      Видео
+                    </Link>
+
+                    <Link
+                      href="https://bilim-tutoring.vercel.app/#faq"
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                    >
+                      Вопросы и ответы
+                    </Link>
 
                     <Link
                       href="https://raduye.vercel.app/"
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
-                      Обо мне
+                      Сайт-портфолио
                     </Link>
 
                     <Link
@@ -126,21 +144,20 @@ const Navbar = () => {
             >
               Видео
             </Link>
-            
+
             <Link
               href="https://bilim-tutoring.vercel.app/#faq"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
               Вопросы и ответы
             </Link>
-            
+
             <Link
               href="https://raduye.vercel.app/"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
               Сайт-портфолио
             </Link>
-
           </ul>
         </div>
 
