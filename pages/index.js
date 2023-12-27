@@ -56,7 +56,7 @@ const Home = () => {
       </Container>
 
       <div id="benefits">
-        <Benefits data={benefitOne}  />
+        <Benefits data={benefitOne} />
       </div>
 
       <SectionTitle
@@ -68,7 +68,13 @@ const Home = () => {
         <Video />
       </div>
 
-      {/* <Testimonials /> */}
+      <SectionTitle
+        pretitle=""
+        title="Мои курсы"
+        className="max-w-2xl"
+      ></SectionTitle>
+      <Testimonials />
+      
 
       <SectionTitle
         pretitle="FAQ"
@@ -76,7 +82,7 @@ const Home = () => {
         className="max-w-2xl"
       ></SectionTitle>
 
-      <div id="faq" >
+      <div id="faq">
         <Faq />
       </div>
 

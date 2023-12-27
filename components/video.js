@@ -36,7 +36,7 @@ const Video = () => {
             //   allowfullscreen></iframe>
 
             <iframe
-              src="https://www.youtube.com/embed/__iraut17Xk?si=2wYte8mNrZBZ5e9W"
+              src="https://www.youtube.com/embed/lgcHkPqubEM?si=4JslHOZ6XWVPMipc"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
