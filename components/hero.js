@@ -2,7 +2,7 @@ import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
 
-const Hero = () => {
+const HeroEng = () => {
   return (
     <>
       <Container className="flex flex-wrap mx-2">
@@ -49,4 +49,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroEng;
