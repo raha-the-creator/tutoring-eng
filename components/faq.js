@@ -35,11 +35,11 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Где вы находитесь?",
-    answer: "У меня онлайн-школа с индивидуальными уроками, я работаю везде, где есть интернет. \n\n Это лучше, чем обычные занятия, потому что:\n\n⚡ индивидуальные уроки, есть только студент и преподаватель; \n\n ⚡ преподаватель видит, что делает студент всё занятие - никаких игр в течение урока, кроме тех, которые мы создаем на уроке; \n\n ⚡ студент не отвлекается на разговоры или игры с другими ребятами, зато может пообщаться с преподавателем; \n\n ⚡ не надо ждать или догонять других студентов, можно учиться со скоростью, которая комфортна именно студенту; \n\n⚡ индивидуальное расписание, а если пропустили урок, то продолжаете ровно с того места, где закончили в последний раз.",
+    question: "Where are you located?",
+    answer: "I have an online school with individual lessons, I work wherever there is internet. \n\nThis is better than regular classes because:\n\n⚡ individual lessons, there is only a student and a teacher; \n\n ⚡ the teacher sees what the student is doing throughout the lesson - no games during the lesson, except those that we create during the lesson; \n\n ⚡ the student is not distracted by conversations or games with other children, but can communicate with the teacher; \n\n ⚡ no need to wait or catch up with other students, you can study at a speed that is comfortable for the student; \n\n⚡ individual schedule, and if you missed a lesson, then continue exactly where you left off last time.",
   },
   {
-    question: "Какой нужен компьютер или ноутбук?",
+    question: "What kind",
     answer: "Если простыми словами, то если на компьютере запускаются игры и компьютерные программы без тормозов, то для занятий подходит. Если говорить техническими характеристиками, то вполне хватит 4-х ядерного процессора с тактовой частотой 2.5 ГГц и более, 8гб оперативной памяти, жесткий диск (лучше SSD) и видеокарта не важны.",
   },
   {

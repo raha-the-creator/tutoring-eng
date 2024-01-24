@@ -13,28 +13,28 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "В чем плюсы моих занятий?",
+  title: "What are the advantages of my classes?",
   desc: "",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Удобство",
-      desc: "Обучение проходит дома, в комфортной для ученика обстановке. Нужен только компьютер, доступ в интернет и желание учиться.",
+      title: "Convenience",
+      desc: "Learning takes place at home, in a comfortable environment for the student. All you need is a computer, Internet access and a desire to learn.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Индивидуальный наставник",
-      desc: "Помогу избежать ошибок и сделаю так, что скорость обучения будет в разы выше, чем при занятиях в группе.",
+      title: "Individual mentor",
+      desc: "I will help you avoid mistakes and make sure that the speed of learning will be many times higher than when studying in a group.",
       icon: <RocketLaunchIcon />,
     },
     {
-      title: "Интерес к программированию",
-      desc: "Моя программа построена так, что ребенок увидит, что программировать гораздо интереснее, чем играть.",
+      title: "Spark interest in programming",
+      desc: "My program is built in such a way that the child will see that programming is much more interesting than playing.",
       icon: <PuzzlePieceIcon />,
     },
     {
-      title: "Профориентация",
-      desc: "Ребята могут в раннем возрасте понять, интересна ли им профессия программиста и мир IT.",
+      title: "Career guidance",
+      desc: "Children can understand at an early age whether they are interested in the profession of a programmer and the world of IT.",
       icon: <CursorArrowRaysIcon />,
     },
   ],

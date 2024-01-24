@@ -31,7 +31,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Онлайн-школа "Bilim"</span>
+                    <span>"Bilim" Online Tutoring</span>
                   </span>
                 </Link>
 
@@ -66,42 +66,42 @@ const Navbar = () => {
                       href="https://bilim-tutoring.vercel.app/#aboutme"
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
-                      Обо мне
+                      About Me
                     </Link>
 
                     <Link
                       href="https://bilim-tutoring.vercel.app/#benefits"
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
-                      Плюсы занятий
+                      Benefits
                     </Link>
 
                     <Link
                       href="https://bilim-tutoring.vercel.app/#video"
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
-                      Видео
+                      Video
                     </Link>
 
                     <Link
                       href="https://bilim-tutoring.vercel.app/#faq"
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
-                      Вопросы и ответы
+                      Q&A
                     </Link>
 
                     <Link
                       href="https://raduye.vercel.app/"
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
-                      Сайт-портфолио
+                      Portfolio
                     </Link>
 
                     <Link
                       href="/"
                       className="w-full px-6 py-2 mt-3 text-center text-sm text-white bg-indigo-600 rounded-md lg:ml-5"
                     >
-                      Записаться!
+                      Sign-up!
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -128,35 +128,35 @@ const Navbar = () => {
               href="https://bilim-tutoring.vercel.app/#aboutme"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
-              Обо мне
+              About Me
             </Link>
 
             <Link
               href="https://bilim-tutoring.vercel.app/#benefits"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
-              Плюсы занятий
+              Benefits
             </Link>
 
             <Link
               href="https://bilim-tutoring.vercel.app/#video"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
-              Видео
+              Video
             </Link>
 
             <Link
               href="https://bilim-tutoring.vercel.app/#faq"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
-              Вопросы и ответы
+              Q&A
             </Link>
 
             <Link
               href="https://raduye.vercel.app/"
               className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
             >
-              Сайт-портфолио
+              Portfolio
             </Link>
           </ul>
         </div>
@@ -166,10 +166,10 @@ const Navbar = () => {
             href="https://t.me/rahatherock"
             className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
           >
-            Записаться!
+            Sign-up!
           </Link>
 
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
         </div>
       </nav>
     </div>

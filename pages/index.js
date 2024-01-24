@@ -44,14 +44,23 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex items-start w-full lg:w-1/2" id="aboutme">
-          <SectionTitle pretitle="" title="👨‍🏫 Немного обо мне:">
-            Меня зовут Раха, я родом из Казахстана 🇰🇿. Выпускник British
-            Columbia Institute of Technology, сейчас работаю Quality Assurance
-            Engineer в американской компании, специализирующейся на тестировании
-            программного обеспечения для развлекательной индустрии. В свободное
-            время играю на гитаре, хожу в спорт зал, делаю небольшие проекты.
+        <div className=" items-start w-full lg:w-1/2" id="aboutme">
+          <SectionTitle pretitle="" title="👨‍🏫 About me:">
+          My name is Raha, I'm from Kazakhstan 🇰🇿. A graduate of the British Columbia Institute of Technology, I now work as a Quality Assurance Engineer in an American company specializing in software testing for the entertainment industry. In my free time, I play the guitar, go to the gym, and do small projects.
+          Send me message!
           </SectionTitle>
+
+          <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+              <a
+                href="tel: +16043797287"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
+              >
+                Send me text!
+              </a>
+            </div>
+          {/* <p><a href="tel: +16043797287">Send me message! (604) 379 72 87</a></p> */}
         </div>
       </Container>
 
@@ -60,8 +69,8 @@ const Home = () => {
       </div>
 
       <SectionTitle
-        pretitle="Ознакомление"
-        title="Видео-знакомство со мной."
+        pretitle="Introduction"
+        title="Video introduction for future students"
       ></SectionTitle>
 
       <div id="video">
@@ -70,7 +79,7 @@ const Home = () => {
 
       <SectionTitle
         pretitle=""
-        title="Мои курсы"
+        title="My courses"
         className="max-w-2xl"
       ></SectionTitle>
       <Testimonials />
@@ -78,7 +87,7 @@ const Home = () => {
 
       <SectionTitle
         pretitle="FAQ"
-        title="Вопросы/ответы"
+        title="Frequently Asked Questions"
         className="max-w-2xl"
       ></SectionTitle>
 

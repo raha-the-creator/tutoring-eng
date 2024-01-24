@@ -15,14 +15,13 @@ const Testimonials = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-14 dark:bg-trueGray-800">
             <Avatar
               image={userTwoImg}
-              name="Компьютерная
-              грамотность"
+              name="Computer Literacy"
               title="Microsoft Office + Safe Internet"
             />
 
             <p className="text-lg leading-normal mt-2">
-              Расскажу про <Mark>основные программы </Mark> и настройки в
-              операционной системе. Научу основам компьютерной грамотности.{" "}
+               I'll teach you about <Mark>basic main programs</Mark> and settings in
+               operating system. I will teach you the basics of computer literacy.{" "}
             </p>
           </div>
         </div>
@@ -32,12 +31,12 @@ const Testimonials = () => {
             <Avatar
               image={userThreeImg}
               name="Scratch"
-              title="Основы программирования"
+              title="Programming Basics"
             />
 
             <p className="text-lg leading-normal mt-2">
-              Если тебе <Mark>7 — 11 лет</Mark> и у тебя пока что нет опыта в
-              программировании — записывайся на этот курс!{" "}
+              If you're <Mark>7 — 11 years old</Mark> and you have 0 experience
+              in programming — sign up for this this course!{" "}
             </p>
           </div>
         </div>
@@ -47,11 +46,11 @@ const Testimonials = () => {
             <Avatar
               image={userFourImg}
               name="Figma"
-              title="Графический дизайн"
+              title="Graphic Design"
             />
 
             <p className="text-lg leading-normal">
-              Научу создавать красивые иллюстрации в профессиональном <Mark>редакторе Figma</Mark>.
+              Will teach how to create beautiful graphics in <Mark>Figma</Mark>.
             </p>
           </div>
         </div>
@@ -61,12 +60,12 @@ const Testimonials = () => {
             <Avatar
               image={userOneImg}
               name="Web Development"
-              title="Создание сайтов Front-end разработка"
+              title="Creating websites, front-end development"
             />
 
             <p className="text-lg leading-normal mt-2">
-              Продвинутый курс для тех, кто хочет быть{" "}
-              <Mark>веб-разработчиком</Mark> и создавать современные сайты.
+              Advanced course for those who want to become{" "}
+              <Mark>web-developer</Mark> and create modern websites.
             </p>
           </div>
         </div>
